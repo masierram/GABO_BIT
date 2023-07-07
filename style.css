@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: grey;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background:#E5B740;
+}
+
+.Foto1{
+    width: 100%;
+    height: 100px;
+}
+
+.Logo{
+    width: 200px;
+    height: 100px;
+}
+
+.Navegador{
+    width: 60%;
+    height: 100px;
+    float: right;
+    margin: none;
+}
+
+.Navegador ul li{
+    margin: 6px;
+    background-color: black;
+    padding:3%;
+    color: white;
+    font-family: 'Fasthand', cursive;
+    list-style: none;
+    display: block;
+    float: right;
+}
+
+.Navegador ul li:hover{
+    background-color: darkolivegreen;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Fondo{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-image: url(/assets/img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+    float:left;  
+}
+
+.Titular{
+    color: aliceblue;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 400%;
+   
+}
+
+.Area1{
+    height:400px;
+}
+
+.Area2{
+    width: 82%;
+    height:100px;
+    float: left;
+    align-content: center;
+    margin-left: 18%;
+}
+.Botenes{
+    width: 100%;
+    float: right;
+    margin: none;
+    
+}
+
+.Botenes ul li{
+    margin: none;
+    
+}
+
+.Botones li{  
+    margin:10px;
+    list-style: none;
+    display: block;
+    float: left;
+    background-color: #E5B740;
+    padding: 3%;
+    border-radius: 60%;
+    margin-left: 5%;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Botones ul li:hover{
+    background-color: #f1b213;
+}
+
+.Area3{
+    width: 100%;
+    height:300px;
+}
+
+.TituloTabla{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.Premios{
+    margin-left: 24%;
+}
+
+.Fila{
+   border: 10px;
+}
+
+.Fila td{
+    padding: 10px;
+}
+
+.Fecha{
+    background-color: #f1b213;
+    border-style: solid;
+    border-color: blue;
+    color: red;
+}
+
+.PiePagina{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
